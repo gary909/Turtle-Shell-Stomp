@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
+// This is no longer used and can be ignored (can animated coin in BonusBLock movement curve)
+
 public class CoinAnimator : MonoBehaviour
 {
     [Tooltip("How far the coin moves up when it appears")]
