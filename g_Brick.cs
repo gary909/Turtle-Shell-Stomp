@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 // Detroy the brick object - need to add anim
 
@@ -7,6 +8,9 @@ namespace MoreMountains.CorgiEngine
     [AddComponentMenu("Corgi Engine/Environment/Bonus Block")]
     public class g_Brick : CorgiMonoBehaviour
     {
+        [SerializeField]
+        private UnityEvent _hit;
+
         /// <summary>
         /// Triggered when a CorgiController touches the platform
         /// </summary>
@@ -23,8 +27,9 @@ namespace MoreMountains.CorgiEngine
             if (collider.transform.position.y < transform.position.y)
             {
                 // Destroy the brick game object
-                Destroy(gameObject);
                 Debug.Log("Brick destroyed!"); // Log when the brick is destroyed
+                //Destroy(gameObject);
+                _hit?.Invoke();
             }
         }
     }
