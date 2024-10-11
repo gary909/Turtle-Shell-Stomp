@@ -11,9 +11,6 @@ namespace MoreMountains.CorgiEngine
         [SerializeField]
         private UnityEvent _hit;
 
-        /// <summary>
-        /// Triggered when a CorgiController touches the platform
-        /// </summary>
         /// <param name="collider">The collider that collides with the platform.</param>		
         public virtual void OnTriggerEnter2D(Collider2D collider)
         {
