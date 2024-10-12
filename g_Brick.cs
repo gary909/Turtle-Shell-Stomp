@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 // Detroy the brick object - need to add anim
+// This is working, along with brickParticles.cs for the anim
 
 namespace MoreMountains.CorgiEngine
 {
