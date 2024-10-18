@@ -5,6 +5,7 @@ using MoreMountains.Feedbacks;
 using UnityEngine.Serialization;
 
 // Edited to include jump sound
+// No longer used
 
 namespace MoreMountains.CorgiEngine
 {
