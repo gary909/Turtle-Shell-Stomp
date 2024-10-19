@@ -2,14 +2,12 @@ using UnityEngine;
 using System.Collections;
 using MoreMountains.Tools;
 
-// Based on the 'mushroom' script
-
 namespace MoreMountains.CorgiEngine
 {
 	/// <summary>
 	/// Add this class to an object and it'll double the size of a character behavior if it touches one
 	/// </summary>
-	public class Mushroom : PickableItem
+	public class BurgerHealth : PickableItem
 	{
 		/// <summary>
 		/// Checks if the object is pickable.
@@ -38,9 +36,7 @@ namespace MoreMountains.CorgiEngine
 		protected override void Pick(GameObject picker)
 		{
 			// double the size of the character behavior
-			//_pickingCollider.GetComponent<SuperHipsterBrosHealth>().Grow(2f);
-			// Add Health
-			_pickingCollider.GetComponent<SuperHipsterBrosHealth>();
+			_pickingCollider.GetComponent<SuperHipsterBrosHealth>().Grow(2f);
 		}
 	}
 }
