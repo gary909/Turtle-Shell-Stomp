@@ -4,6 +4,7 @@ using MoreMountains.CorgiEngine;
 using MoreMountains.Tools;
 using System.Collections;
 
+// Not ?Working, v4 after this tries to track lives amount not working yet
 // Added init delay to compensate for the health loading delay
 
 public class HealthBar : MonoBehaviour, MMEventListener<HealthChangeEvent>

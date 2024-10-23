@@ -4,6 +4,8 @@ using MoreMountains.CorgiEngine;
 using MoreMountains.Tools;
 using System.Collections;
 
+// Working, v4 after this tries to track lives amount not working yet
+
 public class g_HealthBar : MonoBehaviour, MMEventListener<HealthChangeEvent>
 {
     public Image Heart_HealthLast;  // Last heart (1 heart left)

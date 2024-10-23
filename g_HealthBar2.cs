@@ -1,6 +1,9 @@
 using UnityEngine;
+using UnityEngine.UI;
 using MoreMountains.CorgiEngine;
 using MoreMountains.Tools;
+
+// Not working due to init delay... fixed in v3
 
 public class HealthBar : MonoBehaviour, MMEventListener<HealthChangeEvent>
 {
