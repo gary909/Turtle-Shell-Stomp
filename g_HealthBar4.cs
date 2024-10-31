@@ -4,6 +4,7 @@ using MoreMountains.CorgiEngine;
 using MoreMountains.Tools;
 using System.Collections;
 
+// CHECK THIS SCRIPT!!  HAS IT TANKED FPS???  CHECK!!!!
 // Not ?Working, v4 after this tries to track lives amount not working yet
 // Added init delay to compensate for the health loading delay
 
