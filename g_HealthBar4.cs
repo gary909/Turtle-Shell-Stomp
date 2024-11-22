@@ -5,6 +5,7 @@ using MoreMountains.Tools;
 using System.Collections;
 
 // CHECK THIS SCRIPT!!  HAS IT TANKED FPS???  CHECK!!!!
+// What is being called on every frame?  Get rid of it!
 // Not ?Working, v4 after this tries to track lives amount not working yet
 // Added init delay to compensate for the health loading delay
 
