@@ -4,17 +4,15 @@ using MoreMountains.CorgiEngine;
 using MoreMountains.Tools;
 using System.Collections;
 
-// CHECK THIS SCRIPT!!  HAS IT TANKED FPS???  CHECK!!!!
-// What is being called on every frame?  Get rid of it!
-// Not ?Working, v4 after this tries to track lives amount not working yet
-// Added init delay to compensate for the health loading delay
+// Scripts FPS rate improved with this version (compared to v4)
+// Not fully checked for any bugs just yet
 
-public class HealthBar : MonoBehaviour, MMEventListener<HealthChangeEvent>
+public class g_HealthBar : MonoBehaviour, MMEventListener<HealthChangeEvent>
 {
     public Image Heart_HealthLast;  // Last heart (1 heart left)
     public Image Heart_HealthMid;   // Middle heart (2 hearts left)
     public Image Heart_HealthFull;  // Full heart (3 hearts left)
-    
+
     public Text LivesText;          // Reference to the Text object that displays the lives
 
     private Health PlayerHealth;    // Reference to the player's health component
@@ -29,25 +27,36 @@ public class HealthBar : MonoBehaviour, MMEventListener<HealthChangeEvent>
     // Coroutine to initialize the health bar and lives display after a slight delay
     private IEnumerator InitializeAfterDelay()
     {
-        // Wait until GameManager is ready and PlayerHealth is found
-        while (GameManager.Instance == null || PlayerHealth == null)
+        float timeout = 5f; // Max time to search for PlayerHealth
+        float elapsedTime = 0f;
+
+        while ((GameManager.Instance == null || PlayerHealth == null) && elapsedTime < timeout)
         {
+            elapsedTime += Time.deltaTime;
+
             GameObject player = GameObject.FindWithTag("Player");
             if (player != null)
             {
                 PlayerHealth = player.GetComponent<Health>();
                 if (PlayerHealth != null)
                 {
-                    InitializeHealthBar(); // Initialize hearts once the player is found
+                    InitializeHealthBar();
                 }
             }
-            yield return null; // Wait for the next frame
+            yield return null;
         }
 
-        // Once the GameManager and PlayerHealth are ready, initialize lives display
-        UpdateLivesText();
-        Debug.Log("Initialization complete, CurrentLives: " + GameManager.Instance.CurrentLives);
+        if (elapsedTime >= timeout)
+        {
+            Debug.LogWarning("Initialization timed out.");
+        }
+        else
+        {
+            UpdateLivesText();
+            Debug.Log("Initialization complete, CurrentLives: " + GameManager.Instance.CurrentLives);
+        }
     }
+
 
     // Method to initialize health bar based on the player's current health
     private void InitializeHealthBar()
@@ -102,9 +111,16 @@ public class HealthBar : MonoBehaviour, MMEventListener<HealthChangeEvent>
         this.MMEventStopListening<HealthChangeEvent>();
     }
 
-    // Optional: If lives change dynamically, you can update the lives text every frame
-    void Update()
+    // Example: Trigger this from the GameManager when lives change
+    public void OnLivesChanged(int newLives)
     {
-        UpdateLivesText();
+        LivesText.text = "Lives: " + newLives;
     }
+
+
+    // Optional: If lives change dynamically, you can update the lives text every frame
+    // void Update()
+    // {
+    //     UpdateLivesText();
+    // }
 }
