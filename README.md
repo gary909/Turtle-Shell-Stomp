@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+14/12/24 Added parralax backgrounds, disabled anti aliasing, added saw blade
+
 06/12/24 Add lava anim, water anim, oil anim (water should be toxic?)
 
 05/12/24 Improved Jumping Platform Particles (could improve?)
