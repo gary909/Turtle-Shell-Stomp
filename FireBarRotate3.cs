@@ -5,6 +5,7 @@ using UnityEngine;
 // Rotates the fireball/firebar sprites
 // Added clockwise toggle
 // Added coroutine for betterer performance
+// FPS now back at 300 (in combination with other improvements)
 
 public class g_FireBarRotate : MonoBehaviour
 {
