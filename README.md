@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+16/12/24 Added buble animation
+
 15/12/24 Parallax backgrounds added (save as V15)
 
 06/12/24 Add lava anim, water anim, oil anim (water should be toxic?)
