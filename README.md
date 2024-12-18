@@ -5,6 +5,10 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+18/12/24 More backgrounds added
+
+17/12/24 Added Player Glide abilty (V16 backup)
+
 16/12/24 Added buble animation
 
 15/12/24 Parallax backgrounds added (save as V15)
