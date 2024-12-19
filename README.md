@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+19/12/24 Working on fix for platform edge spring back.
+
 18/12/24 More backgrounds added
 
 17/12/24 Added Player Glide abilty (V16 backup)
