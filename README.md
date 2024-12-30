@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+30/12/24 Adding Platforms (v18)
+
 21/12/24 Backed up as V17
 
 20/12/24 Fixed jump back bug - set MovingPlatforms.cs script update mode to 'update' not 'fixed update'.  Costs fps though.
