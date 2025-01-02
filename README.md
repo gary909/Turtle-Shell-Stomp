@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+02/01/25 v19 Levels: Planning
+
 31/12/24 Added tilesets: Winter, Grass, Tropics, Ice, Caves.  Will backup as V18.
 
 30/12/24 Adding Platforms (v18) / housekeeping / added contrain to left/right level bounds
