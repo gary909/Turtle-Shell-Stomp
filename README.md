@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+10/01/25 Multiple coloured pipe art created.  Level 2 progressing.
+
 09/01/25 Level 2 started. Level bounds increased to 200 (40 sec approx) 
 
 04/01/25 v19 Levels: Backup created
