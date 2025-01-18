@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+18/01/25 Level 2 complete: bugs, enemy respawn, new respawn points
+
 17/01/25 Finalised layout level 2
 
 16/01/25 Blocks/Coins added to Lev 2
