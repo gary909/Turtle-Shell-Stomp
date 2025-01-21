@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+21/01/25 parallax bg added for tropics and autumn levels
+
 20/01/25 Level 3 created/Finished. Level 4 created.
 
 18/01/25 Level 2 complete: bugs, enemy respawn, new respawn points
