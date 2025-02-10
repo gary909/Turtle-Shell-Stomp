@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+10/02/25 Level checkpoints added for 1 - 15
+
 06/02/25 Level 15 completed
 
 05/02/25 Finished level 12, 13, 14.
