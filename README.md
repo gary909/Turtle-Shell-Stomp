@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+13/02/25 Optimisation: Many backgrounds fall out of the camera view... removed them from level 1
+
 12/02/25 levels 1 - 15 testeed and working
 
 11/02/25 Pipes: no longer colliders with overhang.
