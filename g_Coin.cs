@@ -13,7 +13,7 @@ namespace MoreMountains.CorgiEngine
     public class g_Coin : MonoBehaviour
     {
         [Header("Coin")]
-        public int PointsToAdd = 10;
+        public int PointsToAdd = 1;
 
         // This method is called when the block's movement is complete
         public void Disappear()
