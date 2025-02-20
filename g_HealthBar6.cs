@@ -77,6 +77,7 @@ public class g_HealthBar : MonoBehaviour, MMEventListener<HealthChangeEvent>
 
         // ******************************************************************Player Glide Ability Check**************************************
         // Call UpdateGlideAbility when health changes
+        
         GameObject player = GameObject.FindWithTag("Player");
         if (player != null)
         {
