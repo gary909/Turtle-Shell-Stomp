@@ -5,7 +5,7 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
-22/05/25 Return to level select pause button working correctly 
+22/05/25 Return to level select pause button working correctly.  Game Over screen working correctly.
 
 21/05/25 Rough version of app deployed 
 
