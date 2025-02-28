@@ -5,7 +5,7 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
-28/02/25 Added icon and splashscreen
+28/02/25 Added icon and splashscreen.  Settings menu updated.
 
 27/02/25 Increased direction button size
 
