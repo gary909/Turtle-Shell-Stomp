@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+08/03/25 Loading screen no longer causes crash
+
 02/03/25 Pause prefab created and deployed
 
 28/02/25 Added icon and splashscreen.  Settings menu updated.
