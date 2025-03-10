@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+10/03/25 replicated 'LoadingScreen_g' with 'LoadingScreen' to launch from level selection with custom load screen
+
 08/03/25 Loading screen no longer causes crash
 
 02/03/25 Pause prefab created and deployed
