@@ -5,7 +5,9 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
-17/03/25 Early implementation of level selevtion locked levels working
+23/03/25 Started implementing level stars szstem in level select screen
+
+17/03/25 Early implementation of level selection locked levels working
 
 10/03/25 replicated 'LoadingScreen_g' with 'LoadingScreen' to launch from level selection with custom load screen
 
