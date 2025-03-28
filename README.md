@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+28/03/25 continue implementing star system (still not working) >:-(
+
 23/03/25 Started implementing level stars szstem in level select screen
 
 17/03/25 Early implementation of level selection locked levels working
