@@ -5,6 +5,30 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+05/04/25 Restored from backup.  Star system removed for now.  Improved level select screen.
+
+31/03/25 Backup _26_levelsSaves created - level saves functioning.  Star sytem not working yet.
+
+28/03/25 continue implementing star system (still not working) >:-(
+
+23/03/25 Started implementing level stars szstem in level select screen
+
+17/03/25 Early implementation of level selection locked levels working
+
+10/03/25 replicated 'LoadingScreen_g' with 'LoadingScreen' to launch from level selection with custom load screen
+
+08/03/25 Loading screen no longer causes crash
+
+02/03/25 Pause prefab created and deployed
+
+28/02/25 Added icon and splashscreen.  Settings menu updated.
+
+27/02/25 Increased direction button size
+
+22/05/25 Return to level select pause button working correctly.  Game Over screen working correctly.
+
+21/05/25 Rough version of app deployed 
+
 20/05/25 Backup created _24_GlideMobile
 
 19/02/25 Backup _V23_LivesUI
