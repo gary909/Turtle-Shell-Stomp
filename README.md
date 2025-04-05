@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+05/04/25 Restored from backup.  Star system removed for now.  Improved level select screen.
+
 31/03/25 Backup _26_levelsSaves created - level saves functioning.  Star sytem not working yet.
 
 28/03/25 continue implementing star system (still not working) >:-(
