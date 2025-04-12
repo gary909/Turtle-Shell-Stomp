@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+12/04/25 Game Over screen semi working
+
 11/04/25 Music on title screen and level select screen.  Fix loading bug move to bug list.
 
 05/04/25 Restored from backup.  Star system removed for now.  Improved level select screen. Added level music. backup: _27_musicLevels
