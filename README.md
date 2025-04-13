@@ -5,6 +5,8 @@ Script to launch turtle shell on the X axis (like super mario bros)
 
 Added:
 
+13/04/25 Game Over screen working with retroLevelManager disabled.  Fix this next
+
 12/04/25 Game Over screen semi working
 
 11/04/25 Music on title screen and level select screen.  Fix loading bug move to bug list.
